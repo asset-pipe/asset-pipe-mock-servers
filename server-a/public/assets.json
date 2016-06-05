@@ -1,0 +1,7 @@
+[
+{"id":"c645cf572a8f5acf8716e4846b408d3b1ca45c58","source":"\"use strict\";module.exports.world=function(){return\"world\"};","deps":{},"file":"/home/diablo/Dev/git/asset-pipe/asset-mock/server-a/assets/js/bar.js"}
+,
+{"id":"c86b4a60d1a97fab876be8d0e3739cd6643c4bc6","source":"\"use strict\";var bar=require(\"./bar.js\");module.exports.helloworld=function(){return\"hello from server-micro-a\"},module.exports.hello=function(){return\"hello\"};","deps":{"./bar.js":"c645cf572a8f5acf8716e4846b408d3b1ca45c58"},"file":"/home/diablo/Dev/git/asset-pipe/asset-mock/server-a/assets/js/foo.js"}
+,
+{"file":"./assets/js/main.js","id":"d2377196700b98998945de5e91e163b8a79cf5c4","source":"\"use strict\";var foo=require(\"./foo.js\"),bar=require(\"./bar.js\");console.log(\"server-micro-a:\",foo.helloworld()),console.log(\"server-micro-a:\",bar.world()+\" \"+foo.hello());","deps":{"./bar.js":"c645cf572a8f5acf8716e4846b408d3b1ca45c58","./foo.js":"c86b4a60d1a97fab876be8d0e3739cd6643c4bc6"},"entry":true}
+]

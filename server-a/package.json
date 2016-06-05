@@ -1,0 +1,40 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trygve Lie",
+    "email": "post@trygve-lie.com"
+  },
+  "description": "Micro server a",
+  "main": "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trygve-lie/lego.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "scripts": {
+    "start": "node ./server.js 7000"
+  },
+  "contributors": [
+    {
+      "name": "Trygve Lie",
+      "email": "post@trygve-lie.com"
+    }
+  ],
+  "engines": {
+    "node" : "5.x"
+  },
+  "bugs": {
+    "url": "https://github.com/trygve-lie/lego/issues"
+  },
+  "licenses": ["MIT"],
+  "dependencies": {
+    "express": "4.13.4",
+    "serve-static": "1.10.2"
+  },
+  "devDependencies": {
+    
+  }
+}
