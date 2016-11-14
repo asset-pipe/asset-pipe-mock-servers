@@ -24,7 +24,7 @@
     }
   ],
   "engines": {
-    "node" : "5.x"
+    "node" : "7.x"
   },
   "bugs": {
     "url": "https://github.com/trygve-lie/lego/issues"
@@ -32,7 +32,8 @@
   "licenses": ["MIT"],
   "dependencies": {
     "express": "4.13.4",
-    "serve-static": "1.10.2"
+    "serve-static": "1.10.2",
+    "asset-pipe-mid": "1.0.0-alpha.2"
   },
   "devDependencies": {
     "lodash": "4.11.2",
