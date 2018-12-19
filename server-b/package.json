@@ -1,42 +1,44 @@
 {
-  "name": "mock-server",
-  "version": "1.0.0",
-  "author": {
-    "name": "Trygve Lie",
-    "email": "post@trygve-lie.com"
-  },
-  "description": "Micro server a",
-  "main": "./lib/main.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:trygve-lie/lego.git"
-  },
-  "keywords": [
-    "test"
-  ],
-  "scripts": {
-    "start": "node ./server.js 7001"
-  },
-  "contributors": [
-    {
-      "name": "Trygve Lie",
-      "email": "post@trygve-lie.com"
+    "name": "mock-server",
+    "version": "1.0.0",
+    "author": {
+        "name": "Trygve Lie",
+        "email": "post@trygve-lie.com"
+    },
+    "description": "Micro server a",
+    "main": "./lib/main.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:trygve-lie/lego.git"
+    },
+    "keywords": [
+        "test"
+    ],
+    "scripts": {
+        "start": "node ./server.js 7001"
+    },
+    "contributors": [
+        {
+            "name": "Trygve Lie",
+            "email": "post@trygve-lie.com"
+        }
+    ],
+    "engines": {
+        "node": "7.x"
+    },
+    "bugs": {
+        "url": "https://github.com/trygve-lie/lego/issues"
+    },
+    "licenses": [
+        "MIT"
+    ],
+    "dependencies": {
+        "express": "4.16.4",
+        "serve-static": "1.13.2",
+        "asset-pipe-mid": "1.0.0-alpha.6"
+    },
+    "devDependencies": {
+        "lodash": "4.17.11",
+        "moment": "2.23.0"
     }
-  ],
-  "engines": {
-    "node" : "7.x"
-  },
-  "bugs": {
-    "url": "https://github.com/trygve-lie/lego/issues"
-  },
-  "licenses": ["MIT"],
-  "dependencies": {
-    "express": "4.13.4",
-    "serve-static": "1.10.2",
-    "asset-pipe-mid": "1.0.0-alpha.2"
-  },
-  "devDependencies": {
-    "lodash": "4.11.2",
-    "moment": "2.13.0"
-  }
 }
